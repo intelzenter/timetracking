@@ -1,0 +1,15 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the game_time_table_init() hook (in hooks/game_time_table.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="game_time_table-date-<%%VALUE(id)%%>" class="game_time_table-date"><%%VALUE(date)%%></td>
+		<td id="game_time_table-time_start-<%%VALUE(id)%%>" class="game_time_table-time_start"><%%VALUE(time_start)%%></td>
+		<td id="game_time_table-time_end-<%%VALUE(id)%%>" class="game_time_table-time_end"><%%VALUE(time_end)%%></td>
+		<td id="game_time_table-unit_code-<%%VALUE(id)%%>" class="game_time_table-unit_code"><%%VALUE(unit_code)%%></td>
+		<td id="game_time_table-venue-<%%VALUE(id)%%>" class="game_time_table-venue"><%%VALUE(venue)%%></td>
+		<td id="game_time_table-school-<%%VALUE(id)%%>" class="game_time_table-school"><%%VALUE(school)%%></td>
+		<td id="game_time_table-department-<%%VALUE(id)%%>" class="game_time_table-department"><%%VALUE(department)%%></td>
+		<td id="game_time_table-year_of_study-<%%VALUE(id)%%>" class="game_time_table-year_of_study"><%%VALUE(year_of_study)%%></td>
